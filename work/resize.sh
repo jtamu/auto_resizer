@@ -1,10 +1,10 @@
 #!/bin/bash
 
-size=x600
-ext=png
+size=$SIZE
+ext=$EXT
 file=$1
 
-if [[ ! $file =~ .png ]]; then
+if [[ ! $file =~ $ext ]]; then
 	exit 0
 fi
 

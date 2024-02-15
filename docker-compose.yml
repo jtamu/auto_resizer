@@ -5,3 +5,6 @@ services:
       - ./work:/work
       - ./images:/images
     command: ./watch.sh
+    environment:
+      - SIZE=x600
+      - EXT=.png
