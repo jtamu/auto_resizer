@@ -1,0 +1,7 @@
+services:
+  resizer:
+    build: .
+    volumes:
+      - ./work:/work
+      - ./images:/images
+    command: ./watch.sh
